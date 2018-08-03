@@ -44,11 +44,20 @@ compileKotlin2Js {
 }
 ```
 
-在浏览器中运行：
+安装依赖：
+
+```
+cd generated
+npm install
+```
+
+再回到根目录：
 
 ```
 open index.html
 ```
+
+将在浏览器中打开页面。
 
 打开Chrome的 Developer面板 -> `Source`，可以看到的确出现了Kotlin文件：
 
